@@ -1,0 +1,48 @@
+#fullpage{
+    margin: 0;
+    padding: 0;
+    height: 775px;
+    width: 100%;
+    background: linear-gradient(to bottom, #1e3170, #84b2ed);
+}
+h1{
+    margin: 0;
+    padding: 15px;
+    color: lightgray;
+}
+#welcome{
+    height: 50px;
+    font-size: large;
+    background-color: rgba(245, 245, 245, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#card{
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: large;
+    padding-top: 20px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+button{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: lightblue;
+    font-size: medium;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightpink;
+}

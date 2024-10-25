@@ -1,0 +1,213 @@
+#fullpage2{
+  margin: 0;
+  padding: 0;
+  height: 775px;
+  width: 100%;
+  background: linear-gradient(to bottom, #1e3170, #779bc9);
+}
+h1{
+  margin: 0;
+  padding: 15px;
+  color: lightgray;
+}
+#welcome{
+  height: 50px;
+  font-size: large;
+  background-color: rgba(245, 245, 245, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  margin: auto;
+  border: 8px solid #f3f3f3; 
+  border-top: 8px solid #3498db; 
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#searchPage{
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 500px;
+}
+
+#cityInfo{
+  height: 380px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('../images/clouds3.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+#city{
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#dates{
+  height: 100%;
+  width: 70%;
+}
+#celcius{
+  height: 50%;
+  width: 25%;
+  margin: auto;
+}
+#p1{
+  font-size: 45px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 48px;
+  margin-top: 60px;
+}
+#p2{
+  font-size: 20px;
+  color: rgb(167,218,237);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 50px;
+}
+#deg1{
+  font-size: 60px;
+  color: white;
+  position: relative;
+}
+#deg2{
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 25px;
+  line-height: 0;
+}
+#info{
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#maximumTemp,#humidity,#wind,#visibility,#pressure,#minimumTemp,#sunrise,#sunset{
+  width: 24%;
+  height: 50%;
+  display: flex;
+}
+
+.chillImage{
+  background-image: url("../images/latitude-32.png");
+  background-repeat: no-repeat;
+  width: 18%;
+  height: 38%;
+  margin: auto;
+  margin-left: 10px;
+}
+#chillInfo{
+  width: 75%;
+}
+#chillInfoP1{
+  margin: auto;
+  align-items: start;
+  text-align: left;
+  font-size: 14px;
+  color: rgb(167,218,237);
+  margin-top: 15px;
+}
+#chillInfoP2{
+  font-size:18px;
+  margin: auto;
+  color: white;
+  text-align: left;
+}
+#wind{
+  width: 24%;
+  height: 50%;
+}
+#humidity{
+  width: 24%;
+  height: 50%;
+}
+#visibility{
+  width: 24%;
+  height: 50%;
+}
+#pressure{
+  width: 24%;
+  height: 50%;
+}
+#maxTemp{
+  width: 24%;
+  height: 50%;
+}
+#sunrise{
+  width: 24%;
+  height: 50%;
+}
+#sunset{
+  width: 24%;
+  height: 50%;
+}
+#humidityImg{
+  background-image: url('../images/humidity.png');
+}
+#visibilityImg{
+  background-image: url('../images/visibility.png');
+}
+#pressureImg{
+  background-image: url('../images/pressure-32.png');
+}
+#maxTemp{
+  background-image: url('../images/longitude-32.png');
+}
+#sunriseImg{
+  background-image: url('../images/sunrise.png');
+}
+#sunsetImg{
+  background-image: url('../images/sunset.png');
+}
+#windImg{
+  background-image: url('../images/wind.png');
+}
+#forecast{
+  height: 430px;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(245, 245, 245,0.2);
+  color: black;
+}
+#headingForecast{
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: large;
+}
+#thead2{
+  height: 65px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+#forecast > table > tbody > tr{
+  height: 42px;
+  font-weight: 400;
+  border-bottom: 1px solid navy;
+}
